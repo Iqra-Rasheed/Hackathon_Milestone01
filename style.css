@@ -1,0 +1,76 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+    background-color: rgba(30, 151, 91, 0.432);
+    text-align: center;
+}
+.heading{
+    color:hsla(0, 0%, 2%, 0.829) !important;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.main{
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: bottom 100px; 
+    position: relative;
+    background-image: url();
+    
+    
+    
+
+
+}
+.personal{
+    color: hsl(0, 36%, 5%);
+    background-color: rgba(27, 109, 98, 0.397);
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+
+}
+.forpic{
+    color: rgb(11, 93, 99);
+    text-align: center;
+    
+    
+
+}
+input[type="file"]{
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    background-color: rgb(232, 245, 244);
+    border-radius: 30px;
+    margin: 20px;
+
+}
+input[type="file"]::file.selector.button{
+    background-color: rgb(158, 125, 132);
+    cursor: pointer;
+    font-size: larger;
+    color: rgb(228, 227, 175);
+    border-color: rgb(179, 166, 192);
+    border: 10px;
+
+}
+form{
+    margin-bottom: 20px;
+
+}
+input,textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    background-color: rgba(37, 240, 213, 0.336);
+}
+
